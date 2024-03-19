@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>  
+  </head>
+  <style>
+    .box {
+      width: 100%;
+      max-width: 600px;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 16px;
+      margin: 0 auto;
+    }
+    .msg {
+      color: red;
+      font-weight: 700;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="table-responsive">
+        <h3 align="center">Registration Form</h3>
+        <br />
+        <p class="msg text-center" ></p>><br/>
+        <p class="successmsg text-success fw-bold text-center" >ddd</p>
+        <br>
+        <div class="box">
+          <div class="form-group">
+            <label for="name">Enter Your Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Name"
+              required
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Enter Your Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+              required
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="pwd">Enter Your Password</label>
+            <input
+              type="password"
+              name="pwd"
+              id="pwd"
+              placeholder="Enter Password"
+              required
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="gender">Gender</label><br />
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="Male"
+              required
+            />
+            Male
+            <input
+              type="radio"
+              name="gender"
+              id="gender"
+              value="Female"
+              required
+            />
+            Female
+          </div>
+          <div class="form-group">
+            <label for="age">Age</label><br />
+            <input
+              type="number"
+              name="age"
+              id="age"
+              placeholder="Enter Age"
+              required
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="dob">DoB</label><br />
+            <input
+              type="date"
+              name="dob"
+              id="dob"
+              placeholder="Enter Dob"
+              required
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile</label><br />
+            <input
+              type="text"
+              name="mobile"
+              id="mobile"
+              placeholder="Enter Mobile"
+              required
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label><br />
+            <input
+              type="text"
+              name="address"
+              id="address"
+              placeholder="Enter Address"
+              required
+              class="form-control"
+            />
+          </div>
+          <div class="form-group text-center">
+            <button
+              type="submit"
+              id="register"
+              name="register"
+              value="Submit"
+              class="btn btn-primary"
+            >
+              Register
+            </button>
+          </div>
+
+          <div class="text-center">
+            Alredy have an account? <a class="text-primary fs-2" href="./login.html">Login</a>
+          </div>
+
+         
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
