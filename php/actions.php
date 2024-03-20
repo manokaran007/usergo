@@ -1,10 +1,5 @@
 <?php
-require_once('../mongo-driver/vendor/autoload.php');
-
-$databaseConnection = new MongoDB\Client; 
-$database = $databaseConnection -> myDb;
-$collection = $database -> profile;
-
+require_once('mongo.php');
 
 if($collection)
 {   
