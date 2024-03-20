@@ -1,5 +1,5 @@
-# usergo
-#Overview
+# Guvi
+# Overview
   This project is a web application built using HTML, JavaScript, CSS, and PHP. 
 
 # File Structure
@@ -10,19 +10,19 @@
   * jQuery,AJAX is exclusively used for interacting with the backend
 
 # Backend
-  *MySQL is employed for storing registered data, ensuring security through Prepared Statements.
-  *MongoDB is utilized for storing user profile details, offering flexibility and scalability.
-  *Redis is utilized to store session information in the backend, ensuring efficient session management without relying on PHP Session.
+  * MySQL is employed for storing registered data, ensuring security through Prepared Statements.
+  * MongoDB is utilized for storing user profile details, offering flexibility and scalability.
+  * Redis is utilized to store session information in the backend, ensuring efficient session management without relying on PHP Session.
 
 # Technologies Used
-*HTML5
-*JavaScript
-*CSS
-*PHP
-*jQuery
-*Bootstrap
-*MySQL
-*MongoDB
+* HTML5
+* JavaScript
+* CSS
+* PHP
+* jQuery
+* Bootstrap
+* MySQL
+* MongoDB
 *Redis
 
 # Getting Started
